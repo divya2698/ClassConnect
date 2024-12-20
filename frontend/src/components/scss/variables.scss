@@ -1,0 +1,33 @@
+$font: Arial, Helvetica, sans-serif;
+$hairline-weight: 100;
+$thin-weight:     200;
+$light-weight:    300;
+$normal-weight:   400;
+$medium-weight:   500;
+$semibold-weight: 600;
+$bold-weight:     700;
+$xbold-weight:    800;
+$black-weight:    900;
+$secondary-color:  rgb(25, 147, 147);
+$backColor: #d3d3d3;
+
+$background-color: white;
+$filterPercent: 0%;
+$text-color: #232323;
+$gray: #efefef;
+$sub: #545454;
+
+@mixin alignCenter() {
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin  flexRow() {
+    display : flex;
+    flex-direction: row;
+}
+
+@mixin  flexColumn() {
+    display: flex;
+    flex-direction: column;    
+}

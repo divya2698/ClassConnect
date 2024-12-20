@@ -1,0 +1,69 @@
+@import 'https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800&display=swap';
+
+@import './../scss/variables.scss';
+
+.course-containerr{
+    width: auto;
+    @include flexRow();
+    align-items: center;
+    margin-top: 20;
+    margin-left: 15;
+}
+.ml1{
+    margin-left: 20px;
+}
+.icon-home{
+    height: 50px;
+    width: 35px;
+}
+.user-logo{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 200px;
+    background-color: #eeeeee;
+    display: flex;
+    @include alignCenter();
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+.changeColor{
+    text-align: left;
+    font-family: $font;
+    font-weight: 600;
+    font-size: 28;
+    img{
+        width: 4.5rem;
+        margin-top: 100;
+    }
+}
+
+.subject{
+    font-family: $font;
+    font-size: 17;
+    color: #545454;
+    font-weight: 600;
+    margin: 0;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.sub-dept{
+    font-family: $font;
+    font-size: 16;
+    color: #545454;
+    font-weight: 500;
+    margin: 0;
+    text-align: left;
+}
+
+.sub-course{
+    font-size: 18;
+    letter-spacing: 0.4;
+    color: #545454;
+    font-family: $font;
+    font-weight: 600;
+    margin: 35 0 5 20;
+    padding: 0;
+
+}

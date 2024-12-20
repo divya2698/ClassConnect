@@ -1,0 +1,33 @@
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.Toastify__toast {
+    width: 400px;
+    height: 50px;
+    border-radius: 5px;
+    box-shadow: none !important;
+    bottom: 20px;
+    z-index: 99999;
+  }
+  
+  .Toastify__toast--success {
+    background-color: #ffffff;
+    width: 400px;
+    height: 50px;
+    border-radius: 5px;
+    box-shadow: none;
+    bottom: 20px;
+    z-index: 99999;
+  }
+  
+  .Toastify__toast--error {
+    box-shadow: none;
+  }
+  
+  
